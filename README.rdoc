@@ -1,0 +1,15 @@
+= neo4j REST proxy
+
+neo-rest-proxy is a node.js based proxy that add nest JSON object support to neo4j's REST API in node or relationship values.
+
+== Features
+
+- Works around the neo4j restriction against nest JSON in node/property values: {Property values can not be nested}{http://docs.neo4j.org/chunked/milestone/rest-api-node-properties.html#rest-api-property-values-can-not-be-nested}
+
+== Usage
+
+TODO
+
+== Author
+
+{Gary Thomas}[https://github.com/neo-rest-proxy]
