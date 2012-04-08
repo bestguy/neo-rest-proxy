@@ -1,0 +1,16 @@
+{
+    "name": "neo-rest-proxy",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*",
+        "optimist": "*",
+        "request": "*"
+    },
+    "config" : {
+        "url" : "http://localhost:7474",
+        "port" : 4747
+    },
+    "scripts": {
+        "start": "node neo-rest-proxy.js"
+    }
+}
